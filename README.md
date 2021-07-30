@@ -20,7 +20,7 @@ var errorCallback = function(err) {
     window.alert(err)
 }
 
-window.plugins.getKeyHashes(successCallback, errorCallback)
+cordova.plugins.getKeyHashes(successCallback, errorCallback)
 ```
 
 ## Supported platforms

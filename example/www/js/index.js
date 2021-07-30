@@ -5,7 +5,7 @@ var app = {
     },
 
     onDeviceReady: function() {
-        var getKeyHashes = window.plugins.getKeyHashes
+        var getKeyHashes = cordova.plugins.getKeyHashes
 
         $('#button-get-key-hashes')
             .button('option', 'disabled', false)

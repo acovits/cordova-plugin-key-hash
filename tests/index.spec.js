@@ -1,5 +1,5 @@
 exports.defineAutoTests = function() {
-    var getKeyHashes = window.plugins.getKeyHashes
+    var getKeyHashes = cordova.plugins.getKeyHashes
 
     it('should be a function', function() {
         expect(typeof getKeyHashes).toBe('function')
